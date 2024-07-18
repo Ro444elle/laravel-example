@@ -2,6 +2,7 @@
 
 namespace Database\Factories;
 
+use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -10,7 +11,7 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 class EmployerFactory extends Factory
 {
     /**
-     * Define the model's default state.
+     *  Define the model's default state.
      *
      * @return array<string, mixed>
      */
@@ -18,6 +19,7 @@ class EmployerFactory extends Factory
     {
         return [
             'name' => fake()->company(),
+            'user_id' => User::factory(),
         ];
     }
 }

@@ -13,7 +13,7 @@
             <h2 class="text-base font-semibold leading-7 text-gray-900">Create an account</h2>
             <p class="mt-1 text-sm leading-6 text-gray-600">We just need a handful of details from you.</p>
 
-            <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+            <div class="grid mt-3 grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
                 <x-form-field >
                     <x-form-label for="first_name">First Name</x-form-label>
                     <div class="mt-2">
@@ -85,9 +85,9 @@
         </div>
     </div>
 
-        <div class="mt-6 flex items-center justify-end gap-x-6">
-            <button type="button" class="text-sm font-semibold leading-6 text-gray-900">Cancel</button>
-            <x-form-button>Submit</x-form-button>
+        <div class="mt-6 mr-321 flex items-center justify-end gap-x-6">
+            <a href="/" class="text-sm font-semibold ml-6 mr-56 leading-6 text-gray-900">Cancel</button>
+            <x-form-button>Register</x-form-button>
         </div>
     </form>
 
