@@ -12,7 +12,7 @@ class Job extends Model
 
   // protected $fillable = ['title', 'salary', 'employer_id'];
 
-  //Or, leave it with any new signable new fields like this:
+  //Or, leave it with any new signable fields like this:
 
   protected $guarded = [];
 
